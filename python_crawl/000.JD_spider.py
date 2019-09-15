@@ -58,7 +58,7 @@ class JDSpider(object):
             # 4.写入数据
             self.save_data(content_list)
             # 5.设置下一个url
-            if (len(content_list) < 10) or (current_page == 50):
+            if (len(content_list) < 10) or (current_page == 500):
                 break
             current_page += 1
 
