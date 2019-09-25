@@ -44,9 +44,9 @@ def main():
         p2.daemon = True
         p2.start()
         ps.append(p2)
-    for p in ps:
-        p.join()
-
+    # for p in ps:
+        # p.join()
+    # p1.join()
 
 
 if __name__ == "__main__":
