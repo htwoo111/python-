@@ -7,7 +7,7 @@ def job(x):
 
 def main():
     pool = mp.Pool()
-    ret = pool.map(job, range(10000)) # map适合处理多数据
+    ret = pool.map(job, range(10000))  # map适合处理多数据
     print(ret)
 
 
@@ -24,8 +24,8 @@ def scrape(url):
         print 'Error Occured ', url
     finally:
         print 'URL ', url, ' Scraped'
- 
- 
+
+
 if __name__ == '__main__':
     pool = Pool(processes=3)
     urls = [
