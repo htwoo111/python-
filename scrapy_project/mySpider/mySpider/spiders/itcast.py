@@ -22,5 +22,5 @@ class ItcastSpider(scrapy.Spider):
             item['name'] = li.xpath('.//h3/text()').extract_first()
             # item['title'] = li.xpath('.//h4/text()').extract()[0]
             item['title'] = li.xpath('.//h4/text()').extract_first()
-            print("item:")
+            # print("item:")
             yield item

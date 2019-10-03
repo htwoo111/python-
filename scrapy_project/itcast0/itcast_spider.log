@@ -18,3 +18,30 @@
 2019-09-29 16:06:52 [itcast0.pipelines] WARNING: **************************************************
 2019-09-29 16:06:52 [itcast0.spiders.itcast] WARNING: {'come_from': 'itcast'}
 2019-09-29 16:06:52 [itcast0.pipelines] WARNING: **************************************************
+2019-10-02 07:39:20 [itcast0.spiders.itcast] WARNING: {'come_from': 'itcast'}
+2019-10-02 07:39:20 [itcast0.pipelines] WARNING: **************************************************
+2019-10-02 07:39:20 [itcast0.spiders.itcast] WARNING: {'come_from': 'itcast'}
+2019-10-02 07:39:20 [itcast0.pipelines] WARNING: **************************************************
+2019-10-02 07:39:20 [itcast0.spiders.itcast] WARNING: {'come_from': 'itcast'}
+2019-10-02 07:39:20 [itcast0.pipelines] WARNING: **************************************************
+2019-10-02 07:39:20 [itcast0.spiders.itcast] WARNING: {'come_from': 'itcast'}
+2019-10-02 07:39:20 [itcast0.pipelines] WARNING: **************************************************
+2019-10-02 07:39:20 [itcast0.spiders.itcast] WARNING: {'come_from': 'itcast'}
+2019-10-02 07:39:20 [itcast0.pipelines] WARNING: **************************************************
+2019-10-02 07:39:20 [itcast0.spiders.itcast] WARNING: {'come_from': 'itcast'}
+2019-10-02 07:39:20 [itcast0.pipelines] WARNING: **************************************************
+2019-10-02 07:39:20 [itcast0.spiders.itcast] WARNING: {'come_from': 'itcast'}
+2019-10-02 07:39:20 [itcast0.pipelines] WARNING: **************************************************
+2019-10-02 07:39:20 [itcast0.spiders.itcast] WARNING: {'come_from': 'itcast'}
+2019-10-02 07:39:20 [itcast0.pipelines] WARNING: **************************************************
+2019-10-02 07:39:20 [itcast0.spiders.itcast] WARNING: {'come_from': 'itcast'}
+2019-10-02 07:39:20 [itcast0.pipelines] WARNING: **************************************************
+2019-10-02 07:39:20 [itcast0.spiders.itcast] WARNING: {'come_from': 'itcast'}
+2019-10-02 07:39:20 [itcast0.pipelines] WARNING: **************************************************
+2019-10-02 07:39:20 [scrapy.core.engine] ERROR: Scraper close failure
+Traceback (most recent call last):
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/htwoo/jupyter_notebook/scrapy_project/itcast0/itcast0/pipelines.py", line 39, in close_spider
+    self.client.close()
+AttributeError: 'Itcast0Pipeline' object has no attribute 'client'

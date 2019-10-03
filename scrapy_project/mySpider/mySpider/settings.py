@@ -14,8 +14,11 @@ BOT_NAME = 'mySpider'
 SPIDER_MODULES = ['mySpider.spiders']
 NEWSPIDER_MODULE = 'mySpider.spiders'
 
-LOG_LEVEL = 'WARNING'
+LOG_LEVEL = 'DEBUG'
+LOG_FILE = './itcast.log'
 
+MONGO_URI = 'localhost'
+MONGO_DATABASE = "itcast"
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'mySpider (+http://www.yourdomain.com)'
 
@@ -67,7 +70,7 @@ ROBOTSTXT_OBEY = True
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
    'mySpider.pipelines.MyspiderPipeline': 300,
-   'mySpider.pipelines.MyspiderPipeline1': 301,
+   # 'mySpider.pipelines.MyspiderPipeline1': 301,
    
 }
 
