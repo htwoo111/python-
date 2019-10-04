@@ -23,6 +23,8 @@ LOG_FILE = './itcast_spider.log'
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
 
+MONGO_URI = '127.0.0.1:27017'
+MONGO_DB = 'test'
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
 
