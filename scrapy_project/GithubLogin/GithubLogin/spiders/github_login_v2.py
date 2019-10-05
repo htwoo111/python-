@@ -13,7 +13,7 @@ class GithubLoginV2Spider(scrapy.Spider):
             response,
             formdata={
                 "login":"htwoo111",
-                "password":"a201741501113"
+                "password":"xxx"
                     },
             callback=self.after_login
         )

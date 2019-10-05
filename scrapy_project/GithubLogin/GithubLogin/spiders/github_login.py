@@ -15,7 +15,7 @@ class GithubLoginSpider(scrapy.Spider):
             "utf8": "✓",
             "authenticity_token": token,
             "login": "1405360652@qq.com",
-            "password": "a201741501113",
+            "password": "xxx",
             "webauthn-support": "supported",
             "webauthn-iuvpaa-support": "unsupported"
         }
