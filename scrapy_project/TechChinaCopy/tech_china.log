@@ -302,3 +302,21 @@ Traceback (most recent call last):
   File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/loader/__init__.py", line 117, in load_item
     item[field_name] = value
 TypeError: 'NewsLoader' object does not support item assignment
+2019-10-05 10:09:34 [scrapy.core.scraper] ERROR: Error downloading <GET https://tech.china.com/articles/>
+Traceback (most recent call last):
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/twisted/internet/defer.py", line 1418, in _inlineCallbacks
+    result = g.send(result)
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/twisted/internet/defer.py", line 1362, in returnValue
+    raise _DefGen_Return(val)
+twisted.internet.defer._DefGen_Return: <200 https://tech.china.com/articles/>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/twisted/internet/defer.py", line 1418, in _inlineCallbacks
+    result = g.send(result)
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/core/downloader/middleware.py", line 56, in process_response
+    (six.get_method_self(method).__class__.__name__, type(response))
+AssertionError: Middleware CheckUserAgent.process_response must return Response or Request, got <class 'NoneType'>
