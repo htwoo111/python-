@@ -1,0 +1,304 @@
+2019-10-04 20:50:01 [scrapy.core.scraper] ERROR: Spider error processing <GET https://tech.china.com/article/20190520/20190520293312.html> (referer: None)
+Traceback (most recent call last):
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spiders/crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "/home/htwoo/jupyter_notebook/scrapy_project/TechChina/TechChina/spiders/tech_china.py", line 29, in parse_item
+    yield loader.load_item()
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/loader/__init__.py", line 117, in load_item
+    item[field_name] = value
+TypeError: 'NewsLoader' object does not support item assignment
+2019-10-04 20:50:01 [scrapy.core.scraper] ERROR: Spider error processing <GET https://tech.china.com/article/20190521/20190521293929.html> (referer: None)
+Traceback (most recent call last):
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spiders/crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "/home/htwoo/jupyter_notebook/scrapy_project/TechChina/TechChina/spiders/tech_china.py", line 29, in parse_item
+    yield loader.load_item()
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/loader/__init__.py", line 117, in load_item
+    item[field_name] = value
+TypeError: 'NewsLoader' object does not support item assignment
+2019-10-04 20:50:01 [scrapy.core.scraper] ERROR: Spider error processing <GET https://tech.china.com/article/20190926/kejiyuan0129375027.html> (referer: None)
+Traceback (most recent call last):
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spiders/crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "/home/htwoo/jupyter_notebook/scrapy_project/TechChina/TechChina/spiders/tech_china.py", line 29, in parse_item
+    yield loader.load_item()
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/loader/__init__.py", line 117, in load_item
+    item[field_name] = value
+TypeError: 'NewsLoader' object does not support item assignment
+2019-10-04 20:50:01 [scrapy.core.scraper] ERROR: Spider error processing <GET https://tech.china.com/article/20190614/kejiyuan0129309554.html> (referer: None)
+Traceback (most recent call last):
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spiders/crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "/home/htwoo/jupyter_notebook/scrapy_project/TechChina/TechChina/spiders/tech_china.py", line 29, in parse_item
+    yield loader.load_item()
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/loader/__init__.py", line 117, in load_item
+    item[field_name] = value
+TypeError: 'NewsLoader' object does not support item assignment
+2019-10-04 20:50:01 [scrapy.core.scraper] ERROR: Spider error processing <GET https://tech.china.com/article/20190605/kejiyuan0129304380.html> (referer: None)
+Traceback (most recent call last):
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spiders/crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "/home/htwoo/jupyter_notebook/scrapy_project/TechChina/TechChina/spiders/tech_china.py", line 29, in parse_item
+    yield loader.load_item()
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/loader/__init__.py", line 117, in load_item
+    item[field_name] = value
+TypeError: 'NewsLoader' object does not support item assignment
+2019-10-04 20:50:01 [scrapy.core.scraper] ERROR: Spider error processing <GET https://tech.china.com/article/20190614/kejiyuan0129309405.html> (referer: None)
+Traceback (most recent call last):
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spiders/crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "/home/htwoo/jupyter_notebook/scrapy_project/TechChina/TechChina/spiders/tech_china.py", line 29, in parse_item
+    yield loader.load_item()
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/loader/__init__.py", line 117, in load_item
+    item[field_name] = value
+TypeError: 'NewsLoader' object does not support item assignment
+2019-10-04 20:50:01 [scrapy.core.scraper] ERROR: Spider error processing <GET https://tech.china.com/article/20190619/kejiyuan0129312366.html> (referer: None)
+Traceback (most recent call last):
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spiders/crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "/home/htwoo/jupyter_notebook/scrapy_project/TechChina/TechChina/spiders/tech_china.py", line 29, in parse_item
+    yield loader.load_item()
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/loader/__init__.py", line 117, in load_item
+    item[field_name] = value
+TypeError: 'NewsLoader' object does not support item assignment
+2019-10-04 20:50:01 [scrapy.core.scraper] ERROR: Spider error processing <GET https://tech.china.com/article/20190625/kejiyuan0129316295.html> (referer: None)
+Traceback (most recent call last):
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spiders/crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "/home/htwoo/jupyter_notebook/scrapy_project/TechChina/TechChina/spiders/tech_china.py", line 29, in parse_item
+    yield loader.load_item()
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/loader/__init__.py", line 117, in load_item
+    item[field_name] = value
+TypeError: 'NewsLoader' object does not support item assignment
+2019-10-04 20:50:01 [scrapy.core.scraper] ERROR: Spider error processing <GET https://tech.china.com/article/20190820/kejiyuan0129349178.html> (referer: None)
+Traceback (most recent call last):
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spiders/crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "/home/htwoo/jupyter_notebook/scrapy_project/TechChina/TechChina/spiders/tech_china.py", line 29, in parse_item
+    yield loader.load_item()
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/loader/__init__.py", line 117, in load_item
+    item[field_name] = value
+TypeError: 'NewsLoader' object does not support item assignment
+2019-10-04 20:50:01 [scrapy.core.scraper] ERROR: Spider error processing <GET https://tech.china.com/article/20190516/20190516290828.html> (referer: None)
+Traceback (most recent call last):
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spiders/crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "/home/htwoo/jupyter_notebook/scrapy_project/TechChina/TechChina/spiders/tech_china.py", line 29, in parse_item
+    yield loader.load_item()
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/loader/__init__.py", line 117, in load_item
+    item[field_name] = value
+TypeError: 'NewsLoader' object does not support item assignment
+2019-10-04 20:50:01 [scrapy.core.scraper] ERROR: Spider error processing <GET https://tech.china.com/article/20190515/20190515290484.html> (referer: None)
+Traceback (most recent call last):
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spiders/crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "/home/htwoo/jupyter_notebook/scrapy_project/TechChina/TechChina/spiders/tech_china.py", line 29, in parse_item
+    yield loader.load_item()
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/loader/__init__.py", line 117, in load_item
+    item[field_name] = value
+TypeError: 'NewsLoader' object does not support item assignment
+2019-10-04 20:50:01 [scrapy.core.scraper] ERROR: Spider error processing <GET https://tech.china.com/article/20190902/kejiyuan0129357903.html> (referer: None)
+Traceback (most recent call last):
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spiders/crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "/home/htwoo/jupyter_notebook/scrapy_project/TechChina/TechChina/spiders/tech_china.py", line 29, in parse_item
+    yield loader.load_item()
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/loader/__init__.py", line 117, in load_item
+    item[field_name] = value
+TypeError: 'NewsLoader' object does not support item assignment
+2019-10-04 20:50:02 [scrapy.core.scraper] ERROR: Spider error processing <GET https://tech.china.com/article/20190516/20190516290839.html> (referer: None)
+Traceback (most recent call last):
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spiders/crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "/home/htwoo/jupyter_notebook/scrapy_project/TechChina/TechChina/spiders/tech_china.py", line 29, in parse_item
+    yield loader.load_item()
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/loader/__init__.py", line 117, in load_item
+    item[field_name] = value
+TypeError: 'NewsLoader' object does not support item assignment
+2019-10-04 20:50:02 [scrapy.core.scraper] ERROR: Spider error processing <GET https://tech.china.com/article/20190627/kejiyuan0129317460.html> (referer: None)
+Traceback (most recent call last):
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spiders/crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "/home/htwoo/jupyter_notebook/scrapy_project/TechChina/TechChina/spiders/tech_china.py", line 29, in parse_item
+    yield loader.load_item()
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/loader/__init__.py", line 117, in load_item
+    item[field_name] = value
+TypeError: 'NewsLoader' object does not support item assignment
+2019-10-04 20:50:02 [scrapy.core.scraper] ERROR: Spider error processing <GET https://tech.china.com/article/20190829/kejiyuan0129355913.html> (referer: None)
+Traceback (most recent call last):
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spiders/crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "/home/htwoo/jupyter_notebook/scrapy_project/TechChina/TechChina/spiders/tech_china.py", line 29, in parse_item
+    yield loader.load_item()
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/loader/__init__.py", line 117, in load_item
+    item[field_name] = value
+TypeError: 'NewsLoader' object does not support item assignment
+2019-10-04 20:50:02 [scrapy.core.scraper] ERROR: Spider error processing <GET https://tech.china.com/article/20190823/kejiyuan0129351579.html> (referer: None)
+Traceback (most recent call last):
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/spiders/crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "/home/htwoo/jupyter_notebook/scrapy_project/TechChina/TechChina/spiders/tech_china.py", line 29, in parse_item
+    yield loader.load_item()
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/scrapy/loader/__init__.py", line 117, in load_item
+    item[field_name] = value
+TypeError: 'NewsLoader' object does not support item assignment
