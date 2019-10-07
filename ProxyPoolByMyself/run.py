@@ -1,11 +1,11 @@
 from proxy_logger import logger
-
+from proxypool.scheduler import Scheduler
 
 
 def main():
     LOGGER = logger
     try:
-        s = scheduler()
+        s = Scheduler()
         s.run()
     except Exception as e:
         LOGGER.debug(e)

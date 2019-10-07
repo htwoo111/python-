@@ -2,14 +2,16 @@ from random import choice
 import redis
 import re
 from proxypool.error import PoolEmptyError
-MAX_SCORE = 100
-MIN_SCORE = 0
-INITIAL_SCORE = 10
-REDIS_HOST = 'localhost'
-REDIS_PORT = 6379
-REDIS_PASSWORD = 'htwoo111'
-# REDIS_KEY = 'myProxies'
-REDIS_KEY = 'test'
+from proxypool.settings import REDIS_HOST, REDIS_PORT, REDIS_KEY, REDIS_PASSWORD
+from proxypool.settings import MAX_SCORE, MIN_SCORE, INITIAL_SCORE
+# MAX_SCORE = 100
+# MIN_SCORE = 0
+# INITIAL_SCORE = 10
+# REDIS_HOST = 'localhost'
+# REDIS_PORT = 6379
+# REDIS_PASSWORD = 'htwoo111'
+# # REDIS_KEY = 'myProxies'
+# REDIS_KEY = 'test'
 
 
 class RedisClient(object):
@@ -30,9 +32,10 @@ class RedisClient(object):
         score：代理的分数
         return：返回添加结果
         """
-        if not re.mathch('\d+\.\d+\.\d+\.\d+:\d+', proxy):
+        if not re.match('\d+\.\d+\.\d+\.\d+:\d+', proxy):
             print('代理：{}不符合规范，丢弃'.format(proxy))
-        if not self.exists:
+        if not self.exists(proxy):
+            print('添加成功')
             return self.db.zadd(REDIS_KEY, {proxy: score})
 
     def exists(self, proxy):
@@ -41,7 +44,9 @@ class RedisClient(object):
         proxy：代理
         return：是否存在
         """
-        return not self.db.zscore(REDIS_KEY, proxy) == None
+        if self.db.zscore(REDIS_KEY, proxy):
+            return True
+        return False
 
     def random(self):
         """
