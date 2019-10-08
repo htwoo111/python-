@@ -1,9 +1,20 @@
 import time
 from multiprocessing import Process
 from proxypool.getter import Getter
+from proxypool.tester import Tester
+from proxypool.api import app
+from proxypool.settings import GETTER_ENABLED, TESTER_ENABLED,API_ENABLED
+from proxypool.settings import GETTER_CYCLE, TESTER_CYCLE
+from proxypool.settings import API_HOST, API_PORT
+# GETTER_CYCLE = 20
+# GETTER_ENABLED = True
 
-GETTER_CYCLE = 20
-GETTER_ENABLED = True
+# TESTER_CYCLE = 20
+# TESTER_ENABLED = True
+
+# API_ENABLED = True
+# API_HOST = 'localhost'
+# API_PORT = 5555
 
 
 class Scheduler(object):
@@ -19,6 +30,27 @@ class Scheduler(object):
             getter.run()
             time.sleep(cycle)
 
+    def schedule_tester(self, cycle=TESTER_CYCLE):
+        """
+        cycle：从验证代理的时间间隔
+        """
+        tester = Tester()
+        while True:
+            print('*'*50)
+            print('开始验证代理可用性...')
+            print('*'*50)
+            tester.run()
+            time.sleep(cycle)
+
+    def schedule_api(self):
+        """
+        开启AIP
+        """
+        print('*'*50)
+        print('开启API...')
+        print('*'*50)
+        app.run(API_HOST, API_PORT)
+
     def run(self):
         """
         使用多线程实现代理池运作
@@ -31,3 +63,9 @@ class Scheduler(object):
         if GETTER_ENABLED:
             getter_process = Process(target=self.schedule_getter)
             getter_process.start()
+        if TESTER_ENABLED:
+            tester_process = Process(target=self.schedule_tester)
+            tester_process.start()
+        if API_ENABLED:
+            api_process = Process(target=self.schedule_api)
+            api_process.start()

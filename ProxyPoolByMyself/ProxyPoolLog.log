@@ -1,76 +1,962 @@
-Mon, 07 Oct 2019 15:25:36 [connectionpool.py] outputNumber:[205] DEBUG Starting new HTTP connection (1): www.xicidaili.com:80
-Mon, 07 Oct 2019 15:25:36 [connectionpool.py] outputNumber:[393] DEBUG http://www.xicidaili.com:80 "GET /nn/4 HTTP/1.1" 301 185
-Mon, 07 Oct 2019 15:25:36 [connectionpool.py] outputNumber:[813] DEBUG Starting new HTTPS connection (1): www.xicidaili.com:443
-Mon, 07 Oct 2019 15:25:36 [connectionpool.py] outputNumber:[393] DEBUG https://www.xicidaili.com:443 "GET /nn/4 HTTP/1.1" 200 None
-Mon, 07 Oct 2019 15:26:10 [connectionpool.py] outputNumber:[205] DEBUG Starting new HTTP connection (1): www.xicidaili.com:80
-Mon, 07 Oct 2019 15:26:10 [connectionpool.py] outputNumber:[393] DEBUG http://www.xicidaili.com:80 "GET /nn/4 HTTP/1.1" 301 185
-Mon, 07 Oct 2019 15:26:10 [connectionpool.py] outputNumber:[813] DEBUG Starting new HTTPS connection (1): www.xicidaili.com:443
-Mon, 07 Oct 2019 15:26:10 [connectionpool.py] outputNumber:[393] DEBUG https://www.xicidaili.com:443 "GET /nn/4 HTTP/1.1" 200 None
-Mon, 07 Oct 2019 15:26:10 [connectionpool.py] outputNumber:[205] DEBUG Starting new HTTP connection (1): www.xicidaili.com:80
-Mon, 07 Oct 2019 15:26:11 [connectionpool.py] outputNumber:[393] DEBUG http://www.xicidaili.com:80 "GET /nn/5 HTTP/1.1" 301 185
-Mon, 07 Oct 2019 15:26:11 [connectionpool.py] outputNumber:[813] DEBUG Starting new HTTPS connection (1): www.xicidaili.com:443
-Mon, 07 Oct 2019 15:26:11 [connectionpool.py] outputNumber:[393] DEBUG https://www.xicidaili.com:443 "GET /nn/5 HTTP/1.1" 200 None
-Mon, 07 Oct 2019 15:26:11 [connectionpool.py] outputNumber:[205] DEBUG Starting new HTTP connection (1): www.xicidaili.com:80
-Mon, 07 Oct 2019 15:26:11 [connectionpool.py] outputNumber:[393] DEBUG http://www.xicidaili.com:80 "GET /nn/6 HTTP/1.1" 301 185
-Mon, 07 Oct 2019 15:26:11 [connectionpool.py] outputNumber:[813] DEBUG Starting new HTTPS connection (1): www.xicidaili.com:443
-Mon, 07 Oct 2019 15:26:11 [connectionpool.py] outputNumber:[393] DEBUG https://www.xicidaili.com:443 "GET /nn/6 HTTP/1.1" 200 None
-Mon, 07 Oct 2019 15:26:11 [connectionpool.py] outputNumber:[205] DEBUG Starting new HTTP connection (1): www.xicidaili.com:80
-Mon, 07 Oct 2019 15:26:11 [connectionpool.py] outputNumber:[393] DEBUG http://www.xicidaili.com:80 "GET /nn/7 HTTP/1.1" 301 185
-Mon, 07 Oct 2019 15:26:11 [connectionpool.py] outputNumber:[813] DEBUG Starting new HTTPS connection (1): www.xicidaili.com:443
-Mon, 07 Oct 2019 15:26:12 [connectionpool.py] outputNumber:[393] DEBUG https://www.xicidaili.com:443 "GET /nn/7 HTTP/1.1" 200 None
-Mon, 07 Oct 2019 16:15:52 [connectionpool.py] outputNumber:[205] DEBUG Starting new HTTP connection (1): www.xicidaili.com:80
-Mon, 07 Oct 2019 16:15:52 [connectionpool.py] outputNumber:[393] DEBUG http://www.xicidaili.com:80 "GET /nn/4 HTTP/1.1" 301 185
-Mon, 07 Oct 2019 16:15:52 [connectionpool.py] outputNumber:[813] DEBUG Starting new HTTPS connection (1): www.xicidaili.com:443
-Mon, 07 Oct 2019 16:15:53 [connectionpool.py] outputNumber:[393] DEBUG https://www.xicidaili.com:443 "GET /nn/4 HTTP/1.1" 200 None
-Mon, 07 Oct 2019 16:16:15 [connectionpool.py] outputNumber:[205] DEBUG Starting new HTTP connection (1): www.xicidaili.com:80
-Mon, 07 Oct 2019 16:16:15 [connectionpool.py] outputNumber:[393] DEBUG http://www.xicidaili.com:80 "GET /nn/4 HTTP/1.1" 301 185
-Mon, 07 Oct 2019 16:16:15 [connectionpool.py] outputNumber:[813] DEBUG Starting new HTTPS connection (1): www.xicidaili.com:443
-Mon, 07 Oct 2019 16:16:16 [connectionpool.py] outputNumber:[393] DEBUG https://www.xicidaili.com:443 "GET /nn/4 HTTP/1.1" 200 None
-Mon, 07 Oct 2019 16:17:57 [connectionpool.py] outputNumber:[205] DEBUG Starting new HTTP connection (1): www.xicidaili.com:80
-Mon, 07 Oct 2019 16:17:58 [connectionpool.py] outputNumber:[393] DEBUG http://www.xicidaili.com:80 "GET /nn/5 HTTP/1.1" 301 185
-Mon, 07 Oct 2019 16:17:58 [connectionpool.py] outputNumber:[813] DEBUG Starting new HTTPS connection (1): www.xicidaili.com:443
-Mon, 07 Oct 2019 16:17:58 [connectionpool.py] outputNumber:[393] DEBUG https://www.xicidaili.com:443 "GET /nn/5 HTTP/1.1" 200 None
-Mon, 07 Oct 2019 16:20:36 [connectionpool.py] outputNumber:[205] DEBUG Starting new HTTP connection (1): www.xicidaili.com:80
-Mon, 07 Oct 2019 16:20:36 [connectionpool.py] outputNumber:[393] DEBUG http://www.xicidaili.com:80 "GET /nn/5 HTTP/1.1" 301 185
-Mon, 07 Oct 2019 16:20:36 [connectionpool.py] outputNumber:[813] DEBUG Starting new HTTPS connection (1): www.xicidaili.com:443
-Mon, 07 Oct 2019 16:20:36 [connectionpool.py] outputNumber:[393] DEBUG https://www.xicidaili.com:443 "GET /nn/5 HTTP/1.1" 200 None
-Mon, 07 Oct 2019 16:23:07 [connectionpool.py] outputNumber:[205] DEBUG Starting new HTTP connection (1): www.xicidaili.com:80
-Mon, 07 Oct 2019 16:23:07 [connectionpool.py] outputNumber:[393] DEBUG http://www.xicidaili.com:80 "GET /nn/5 HTTP/1.1" 301 185
-Mon, 07 Oct 2019 16:23:07 [connectionpool.py] outputNumber:[813] DEBUG Starting new HTTPS connection (1): www.xicidaili.com:443
-Mon, 07 Oct 2019 16:23:07 [connectionpool.py] outputNumber:[393] DEBUG https://www.xicidaili.com:443 "GET /nn/5 HTTP/1.1" 200 None
-Mon, 07 Oct 2019 16:24:14 [connectionpool.py] outputNumber:[205] DEBUG Starting new HTTP connection (1): www.xicidaili.com:80
-Mon, 07 Oct 2019 16:24:15 [connectionpool.py] outputNumber:[393] DEBUG http://www.xicidaili.com:80 "GET /nn/5 HTTP/1.1" 301 185
-Mon, 07 Oct 2019 16:24:15 [connectionpool.py] outputNumber:[813] DEBUG Starting new HTTPS connection (1): www.xicidaili.com:443
-Mon, 07 Oct 2019 16:24:15 [connectionpool.py] outputNumber:[393] DEBUG https://www.xicidaili.com:443 "GET /nn/5 HTTP/1.1" 200 None
-Mon, 07 Oct 2019 16:24:41 [connectionpool.py] outputNumber:[205] DEBUG Starting new HTTP connection (1): www.xicidaili.com:80
-Mon, 07 Oct 2019 16:24:41 [connectionpool.py] outputNumber:[393] DEBUG http://www.xicidaili.com:80 "GET /nn/5 HTTP/1.1" 301 185
-Mon, 07 Oct 2019 16:24:41 [connectionpool.py] outputNumber:[813] DEBUG Starting new HTTPS connection (1): www.xicidaili.com:443
-Mon, 07 Oct 2019 16:24:42 [connectionpool.py] outputNumber:[393] DEBUG https://www.xicidaili.com:443 "GET /nn/5 HTTP/1.1" 200 None
-Mon, 07 Oct 2019 16:25:02 [connectionpool.py] outputNumber:[205] DEBUG Starting new HTTP connection (1): www.xicidaili.com:80
-Mon, 07 Oct 2019 16:25:02 [connectionpool.py] outputNumber:[393] DEBUG http://www.xicidaili.com:80 "GET /nn/5 HTTP/1.1" 301 185
-Mon, 07 Oct 2019 16:25:02 [connectionpool.py] outputNumber:[813] DEBUG Starting new HTTPS connection (1): www.xicidaili.com:443
-Mon, 07 Oct 2019 16:25:02 [connectionpool.py] outputNumber:[393] DEBUG https://www.xicidaili.com:443 "GET /nn/5 HTTP/1.1" 200 None
-Mon, 07 Oct 2019 16:26:00 [connectionpool.py] outputNumber:[205] DEBUG Starting new HTTP connection (1): www.xicidaili.com:80
-Mon, 07 Oct 2019 16:26:00 [connectionpool.py] outputNumber:[393] DEBUG http://www.xicidaili.com:80 "GET /nn/1 HTTP/1.1" 301 185
-Mon, 07 Oct 2019 16:26:00 [connectionpool.py] outputNumber:[813] DEBUG Starting new HTTPS connection (1): www.xicidaili.com:443
-Mon, 07 Oct 2019 16:26:00 [connectionpool.py] outputNumber:[393] DEBUG https://www.xicidaili.com:443 "GET /nn/1 HTTP/1.1" 200 None
-Mon, 07 Oct 2019 16:26:01 [connectionpool.py] outputNumber:[205] DEBUG Starting new HTTP connection (1): www.xicidaili.com:80
-Mon, 07 Oct 2019 16:26:01 [connectionpool.py] outputNumber:[393] DEBUG http://www.xicidaili.com:80 "GET /nn/2 HTTP/1.1" 301 185
-Mon, 07 Oct 2019 16:26:01 [connectionpool.py] outputNumber:[813] DEBUG Starting new HTTPS connection (1): www.xicidaili.com:443
-Mon, 07 Oct 2019 16:26:01 [connectionpool.py] outputNumber:[393] DEBUG https://www.xicidaili.com:443 "GET /nn/2 HTTP/1.1" 200 None
-Mon, 07 Oct 2019 16:28:06 [connectionpool.py] outputNumber:[205] DEBUG Starting new HTTP connection (1): www.xicidaili.com:80
-Mon, 07 Oct 2019 16:28:06 [connectionpool.py] outputNumber:[393] DEBUG http://www.xicidaili.com:80 "GET /nn/8 HTTP/1.1" 301 185
-Mon, 07 Oct 2019 16:28:06 [connectionpool.py] outputNumber:[813] DEBUG Starting new HTTPS connection (1): www.xicidaili.com:443
-Mon, 07 Oct 2019 16:28:06 [connectionpool.py] outputNumber:[393] DEBUG https://www.xicidaili.com:443 "GET /nn/8 HTTP/1.1" 503 None
-Mon, 07 Oct 2019 16:28:06 [connectionpool.py] outputNumber:[205] DEBUG Starting new HTTP connection (1): www.xicidaili.com:80
-Mon, 07 Oct 2019 16:28:07 [connectionpool.py] outputNumber:[393] DEBUG http://www.xicidaili.com:80 "GET /nn/9 HTTP/1.1" 301 185
-Mon, 07 Oct 2019 16:28:07 [connectionpool.py] outputNumber:[813] DEBUG Starting new HTTPS connection (1): www.xicidaili.com:443
-Mon, 07 Oct 2019 16:28:07 [connectionpool.py] outputNumber:[393] DEBUG https://www.xicidaili.com:443 "GET /nn/9 HTTP/1.1" 503 None
-Mon, 07 Oct 2019 16:30:07 [connectionpool.py] outputNumber:[205] DEBUG Starting new HTTP connection (1): www.xicidaili.com:80
-Mon, 07 Oct 2019 16:30:12 [connectionpool.py] outputNumber:[393] DEBUG http://www.xicidaili.com:80 "GET /nn/8 HTTP/1.1" 301 185
-Mon, 07 Oct 2019 16:30:12 [connectionpool.py] outputNumber:[813] DEBUG Starting new HTTPS connection (1): www.xicidaili.com:443
-Mon, 07 Oct 2019 16:30:13 [connectionpool.py] outputNumber:[393] DEBUG https://www.xicidaili.com:443 "GET /nn/8 HTTP/1.1" 200 None
-Mon, 07 Oct 2019 16:30:15 [connectionpool.py] outputNumber:[205] DEBUG Starting new HTTP connection (1): www.xicidaili.com:80
-Mon, 07 Oct 2019 16:30:15 [connectionpool.py] outputNumber:[393] DEBUG http://www.xicidaili.com:80 "GET /nn/9 HTTP/1.1" 301 185
-Mon, 07 Oct 2019 16:30:15 [connectionpool.py] outputNumber:[813] DEBUG Starting new HTTPS connection (1): www.xicidaili.com:443
-Mon, 07 Oct 2019 16:30:15 [connectionpool.py] outputNumber:[393] DEBUG https://www.xicidaili.com:443 "GET /nn/9 HTTP/1.1" 200 None
+Tue, 08 Oct 2019 17:06:39 [selector_events.py] outputNumber:[53] DEBUG Using selector: EpollSelector
+Tue, 08 Oct 2019 17:07:27 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:07:27 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:07:27 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:07:27 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:07:27 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:07:27 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:07:27 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:07:27 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:10:47 [selector_events.py] outputNumber:[53] DEBUG Using selector: EpollSelector
+Tue, 08 Oct 2019 17:12:00 [selector_events.py] outputNumber:[53] DEBUG Using selector: EpollSelector
+Tue, 08 Oct 2019 17:12:27 [selector_events.py] outputNumber:[53] DEBUG Using selector: EpollSelector
+Tue, 08 Oct 2019 17:13:22 [selector_events.py] outputNumber:[53] DEBUG Using selector: EpollSelector
+Tue, 08 Oct 2019 17:14:54 [selector_events.py] outputNumber:[53] DEBUG Using selector: EpollSelector
+Tue, 08 Oct 2019 17:19:43 [selector_events.py] outputNumber:[53] DEBUG Using selector: EpollSelector
+Tue, 08 Oct 2019 17:19:54 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:19:54 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:19:54 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:19:54 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 504, in _request
+    await resp.start(conn)
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client_reqrep.py", line 860, in start
+    self._continue = None
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:19:54 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:20:20 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:20:20 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:20:20 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:20:20 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:20:20 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:20:20 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:20:46 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:20:46 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:20:46 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:20:46 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:20:46 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:21:51 [connectionpool.py] outputNumber:[205] DEBUG Starting new HTTP connection (1): www.iphai.com:80
+Tue, 08 Oct 2019 17:21:51 [selector_events.py] outputNumber:[53] DEBUG Using selector: EpollSelector
+Tue, 08 Oct 2019 17:21:52 [connectionpool.py] outputNumber:[393] DEBUG http://www.iphai.com:80 "GET / HTTP/1.1" 200 None
+Tue, 08 Oct 2019 17:21:53 [connectionpool.py] outputNumber:[205] DEBUG Starting new HTTP connection (1): www.66ip.cn:80
+Tue, 08 Oct 2019 17:21:55 [connectionpool.py] outputNumber:[393] DEBUG http://www.66ip.cn:80 "GET /1.html HTTP/1.1" 200 3580
+Tue, 08 Oct 2019 17:21:57 [connectionpool.py] outputNumber:[205] DEBUG Starting new HTTP connection (1): www.66ip.cn:80
+Tue, 08 Oct 2019 17:21:58 [connectionpool.py] outputNumber:[393] DEBUG http://www.66ip.cn:80 "GET /2.html HTTP/1.1" 200 3745
+Tue, 08 Oct 2019 17:22:02 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:22:02 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:22:02 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:22:02 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:22:02 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:22:02 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:22:03 [connectionpool.py] outputNumber:[205] DEBUG Starting new HTTP connection (1): www.ip3366.net:80
+Tue, 08 Oct 2019 17:22:03 [connectionpool.py] outputNumber:[393] DEBUG http://www.ip3366.net:80 "GET /free/?stype=1&page=1 HTTP/1.1" 200 5621
+Tue, 08 Oct 2019 17:22:05 [connectionpool.py] outputNumber:[205] DEBUG Starting new HTTP connection (1): www.ip3366.net:80
+Tue, 08 Oct 2019 17:22:05 [connectionpool.py] outputNumber:[393] DEBUG http://www.ip3366.net:80 "GET /free/?stype=1&page=2 HTTP/1.1" 200 5596
+Tue, 08 Oct 2019 17:22:07 [connectionpool.py] outputNumber:[205] DEBUG Starting new HTTP connection (1): www.xicidaili.com:80
+Tue, 08 Oct 2019 17:22:08 [connectionpool.py] outputNumber:[393] DEBUG http://www.xicidaili.com:80 "GET /nn/1 HTTP/1.1" 301 185
+Tue, 08 Oct 2019 17:22:08 [connectionpool.py] outputNumber:[813] DEBUG Starting new HTTPS connection (1): www.xicidaili.com:443
+Tue, 08 Oct 2019 17:22:08 [connectionpool.py] outputNumber:[393] DEBUG https://www.xicidaili.com:443 "GET /nn/1 HTTP/1.1" 200 None
+Tue, 08 Oct 2019 17:22:10 [connectionpool.py] outputNumber:[205] DEBUG Starting new HTTP connection (1): www.xicidaili.com:80
+Tue, 08 Oct 2019 17:22:10 [connectionpool.py] outputNumber:[393] DEBUG http://www.xicidaili.com:80 "GET /nn/2 HTTP/1.1" 301 185
+Tue, 08 Oct 2019 17:22:10 [connectionpool.py] outputNumber:[813] DEBUG Starting new HTTPS connection (1): www.xicidaili.com:443
+Tue, 08 Oct 2019 17:22:11 [connectionpool.py] outputNumber:[393] DEBUG https://www.xicidaili.com:443 "GET /nn/2 HTTP/1.1" 200 None
+Tue, 08 Oct 2019 17:22:49 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:22:49 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:22:49 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:22:49 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 504, in _request
+    await resp.start(conn)
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client_reqrep.py", line 860, in start
+    self._continue = None
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:22:49 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:22:49 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:22:49 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:22:49 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:22:49 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:22:49 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:22:49 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:22:49 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:22:49 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=ClientOSError(104, 'Connection reset by peer')>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 483, in _request
+    timeout=real_timeout
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/connector.py", line 523, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/connector.py", line 856, in _create_connection
+    req, traces, timeout)
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/connector.py", line 1065, in _create_proxy_connection
+    resp = await proxy_resp.start(conn)
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client_reqrep.py", line 847, in start
+    message, payload = await self._protocol.read()  # type: ignore  # noqa
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/streams.py", line 591, in read
+    await self._waiter
+aiohttp.client_exceptions.ClientOSError: [Errno 104] Connection reset by peer
+Tue, 08 Oct 2019 17:22:49 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:22:49 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:22:49 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:22:49 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:22:49 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:22:49 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:22:49 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:22:49 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:22:49 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:22:49 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:22:49 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:22:49 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:22:49 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:22:49 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:22:49 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:23:37 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:23:37 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:23:37 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:23:37 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:23:37 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:23:37 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:23:37 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:23:37 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:23:37 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:23:37 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:23:37 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:23:37 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:23:37 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:23:37 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:23:37 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:23:37 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:23:37 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:23:37 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError
+Tue, 08 Oct 2019 17:23:37 [base_events.py] outputNumber:[1604] ERROR Task exception was never retrieved
+future: <Task finished coro=<Tester.test__single_proxy() done, defined at /home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py:22> exception=TimeoutError()>
+Traceback (most recent call last):
+  File "/home/htwoo/jupyter_notebook/ProxyPoolByMyself/proxypool/tester.py", line 33, in test__single_proxy
+    async with session.get(TEST_URL, proxy=real_proxy, timeout=TIME_OUT) as response:
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/client.py", line 582, in _request
+    break
+  File "/home/htwoo/anaconda3/lib/python3.7/site-packages/aiohttp/helpers.py", line 586, in __exit__
+    raise asyncio.TimeoutError from None
+concurrent.futures._base.TimeoutError

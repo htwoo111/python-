@@ -19,7 +19,7 @@ class CrawlerMeta(type):
         for k, v in attrs.items():
             if 'crawl_' in k:
                 attrs['__CrawlerFunc__'].append(k)
-                count += 1 
+                count += 1
         attrs['__CrawlerCount__'] = count
         return type.__new__(cls, name, bases, attrs)
 
@@ -34,9 +34,71 @@ class Crawler(object, metaclass=CrawlerMeta):
             # return proxies
             yield proxy
 
-    def crawl_xicidaili(self):
-        print('开始获取西祠代理')
-        for i in range(8, 10):
+    def crawl_iphai(self):
+        print('开始获取iphai代理...')
+        # 构造url
+        url = 'http://www.iphai.com/'
+        headers = {
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
+            "Accept-Encoding": "gzip, deflate",
+            "Host": "www.iphai.com",
+            "Upgrade-Insecure-Requests": "1"
+        }
+        html = get_page(url, options=headers)
+        if html:
+            find_ip_port = re.compile(
+                '<td>\s*(.*?)\s*</td>\s*<td>\s*(\d+)\s*</td>')
+            ip_port_list = find_ip_port.findall(html)
+            for ip, port in ip_port_list:
+                ip_port = ip + ":" + port
+                yield ip_port.replace(' ', '')
+
+    def crawl_66ip(self, start=1, end=3):
+        print('开始获取66ip代理...')
+        for i in range(start, end):
+            # 构造url
+            url = 'http://www.66ip.cn/{}.html'.format(i)
+            headers = {
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
+                "Accept-Encoding": "gzip, deflate",
+                "Host": "www.ip3366.net",
+                "Referer": "http://www.ip3366.net/free/?stype=1&page=2",
+                "Upgrade-Insecure-Requests": "1"
+            }
+            html = get_page(url, options=headers)
+            time.sleep(2)
+            if html:
+                find_ip_port = re.compile('<tr><td>(.*?)</td><td>(\d+)</td>')
+                ip_port_list = find_ip_port.findall(html)
+                for ip, port in ip_port_list:
+                    ip_port = ip + ":" + port
+                    yield ip_port.replace(' ', '')
+
+    def crawl_ip3366(self, start=1, end=3):
+        print('开始获取ip3366代理...')
+        for i in range(start, end):
+            # 构造url
+            url = 'http://www.ip3366.net/free/?stype=1&page={}'.format(i)
+            headers = {
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
+                "Accept-Encoding": "gzip, deflate",
+                "Host": "www.ip3366.net",
+                "Referer": "http://www.ip3366.net/free/?stype=1&page=2",
+                "Upgrade-Insecure-Requests": "1"
+            }
+            html = get_page(url, options=headers)
+            time.sleep(2)
+            if html:
+                find_ip_port = re.compile(
+                    '<tr>\s*<td>(.*?)</td>\s*<td>(\d+)</td>')
+                ip_port_list = find_ip_port.findall(html)
+                for ip, port in ip_port_list:
+                    ip_port = ip + ":" + port
+                    yield ip_port.replace(' ', '')
+
+    def crawl_xicidaili(self, start=1, end=3):
+        print('开始获取西刺代理...')
+        for i in range(start, end):
             # 构造代理url
             url = 'http://www.xicidaili.com/nn/{}'.format(i)
             headers = {
@@ -47,7 +109,7 @@ class Crawler(object, metaclass=CrawlerMeta):
                 "Upgrade-Insecure-Requests": "1",
             }
             html = get_page(url, options=headers)
-            time.sleep(2)
+            time.sleep(2)  # 设置间隔时间避免被反爬
             if html:
                 # 寻找trs：所有ip：port包含在tr里面
                 find_trs = re.compile('<tr class.*?>(.*?)</tr>', re.S)
